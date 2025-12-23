@@ -1,9 +1,0 @@
-
-db:
-  host: "mongodb://localhost:27017/"
-  name: "serbia_crawler"
-  collection: "documents"
-logic:
-  delay: 1.0
-  max_docs: 10   # Мало для теста
-  corpus_dir: "/content/serbia_corpus"
