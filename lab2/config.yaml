@@ -1,0 +1,17 @@
+db:
+  mongo_uri: "mongodb://localhost:27017"
+  mongo_db: "mai_ir_lab2"
+  mongo_collection: "pages"
+
+logic:
+  delay_sec: 0.3
+  timeout_sec: 20
+  user_agent: "MAI-IR-Lab2/1.0"
+  lock_ttl_sec: 600
+  refetch_after_sec: 604800   # 7 дней
+  retry_after_sec: 900        # 15 минут
+
+seeds:
+  metadata_paths:
+    - "C:/Users/miron/Downloads/corpus/ruwiki/metadata.json"
+    - "C:/Users/miron/Downloads/corpus/enwiki/metadata.json"
