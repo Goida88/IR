@@ -1,4 +1,0 @@
-part,docs,raw_mb,text_mb,avg_raw_bytes,avg_text_bytes,avg_words,median_words,min_words,max_words
-ENWIKI,28000,888.12,403.77,33259.17,15120.72,2274.7,1506,450,47919
-RUWIKI,2000,64.15,42.25,33630.67,22153.34,1571.07,998,450,17912
-TOTAL,30000,952.26,446.02,33283.93,15589.57,,,,
